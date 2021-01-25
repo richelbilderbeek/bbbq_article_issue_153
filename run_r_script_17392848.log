@@ -1,0 +1,51 @@
+Rscript fasta_to_topo.R human.fasta human.pureseqtm
+Warning messages:
+1: In pureseqtmr::predict_topology(fasta_filename = fasta_filename) :
+  Protein sequence and topology has a different length for indices: 19733
+2: In pureseqtmr::predict_topology(fasta_filename = fasta_filename) :
+  index 19733: sequence length: 2, topology length: 0
+
+
+###############################################################################
+Peregrine Cluster
+Job 17392848 for user 'p230198'
+Finished at: Sat Jan 23 03:47:13 CET 2021
+
+Job details:
+============
+
+Job ID              : 17392848
+Name                : run_r_script
+User                : p230198
+Partition           : regular
+Nodes               : pg-node175
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-01-18T13:10:05
+Start               : 2021-01-20T15:56:22
+End                 : 2021-01-23T03:47:13
+Reserved walltime   : 10-00:00:00
+Used walltime       : 2-11:50:51
+Used CPU time       : 2-11:13:28 (efficiency: 98.96%)
+% User (Computation): 82.46%
+% System (I/O)      : 17.54%
+Mem reserved        : 10G/node
+Max Mem used        : 3.06G (pg-node175)
+Max Disk Write      : 112.64K (pg-node175)
+Max Disk Read       : 1.82M (pg-node175)
+Hints and tips      :
+ 1) You requested much more memory than your program used.
+    Please reduce the requested amount of memory.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/peregrine/additional_information/job_hints
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################
